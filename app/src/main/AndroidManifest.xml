@@ -19,14 +19,16 @@
             android:noHistory="true"
             android:screenOrientation="portrait"
             android:theme="@style/Splashscreen">
+
+        </activity>
+
+        <!-- Other Activities -->
+        <activity android:name="com.ekosp.masjidkita.nurulhuda.Home" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <!-- Other Activities -->
-        <activity android:name="com.ekosp.masjidkita.nurulhuda.Home" />
 
     </application>
 
